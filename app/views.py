@@ -24,7 +24,7 @@ def diceRoll():
         rolls[first+second]+=1
 
     for k in rolls:
-        print('%d - %d %f%%' %(k, rolls[k], float(rolls[k])/float(num)*100))
+        #print('%d - %d %f%%' %(k, rolls[k], float(rolls[k])/float(num)*100))
         dict2 = {k:rolls[k]}		
         result.update(dict2)		
 
